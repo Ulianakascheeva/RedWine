@@ -1,0 +1,39 @@
+input_features:
+    -
+        name: fixed_acidity
+        type: numerical
+    -
+        name: volatile_acidity
+        type: numerical
+    -
+        name: citric_acid
+        type: numerical
+    -
+        name: residual_sugar
+        type: numerical
+    -
+        name: chlorides
+        type: numerical
+    -
+        name: free_sulfur_dioxide
+        type: numerical
+    -
+        name: total_sulfur_dioxide
+        type: numerical
+    -
+        name: density
+        type: numerical
+    -
+        name: pH
+        type: numerical
+    -
+        name: sulphates
+        type: numerical
+    -
+        name: alcohol
+        type: numerical
+
+output_features:
+    -
+        name: quality
+        type: numerical
